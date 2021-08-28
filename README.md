@@ -44,7 +44,7 @@ To build the end-to-end **Spam Analyzer**:
   ```python3
   $ flask run
   ```
-## Sneak Pics:
+<details><summary><b>Sneak Pics:</b></summary>
 
 **Ham Check:**
 <p float="left">
@@ -57,6 +57,8 @@ To build the end-to-end **Spam Analyzer**:
   <img src="static/spam_page.png" width="400" />
   <img src="static/result_spam_page.png" width="400" /> 
 </p>
+  
+</details>
 
 ### Show some love 💖 by starring this repository
 
