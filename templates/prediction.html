@@ -27,9 +27,19 @@
 			<center><h1 class="app-title">Spam Analyzer</h1></center>
 			<div class="results">
 				{% if prediction==1 %}
-					<h1>Prediction: <span class='danger'>Gotcha! This message is a SPAM</span></h1>
+					<center>
+					<h1>Prediction 🤞</h1>
+					<br>
+						<img src='https://raw.githubusercontent.com/divyanshugit/spam-analyzer/master/static/img0.png' alt="It's a spam"
+						style="width:30%;height:30%;">
+					</center>
 				{% elif prediction==0 %}
-					<h1>Prediction: <span class='safe'>Great! This message is NOT A SPAM</span></h1>
+					<center>
+					<h1>Prediction 🤞</h1>
+					<br>
+						<img src='https://raw.githubusercontent.com/divyanshugit/spam-analyzer/master/static/img0.png' alt="It's not a spam"
+						style="width:30%;height:30%;">
+					</center>
 				{% endif %}
 			</div>
 			</div>
