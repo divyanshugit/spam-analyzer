@@ -15,7 +15,7 @@ Spam Analyzer is a web app based on _Machine learning for filtering out spam in 
 
 ## Model Building:
 
-- I preprocessed the dataset which has 5572 rows.
+- I preprocessed the dataset which has only 5572 rows.
 - After that I performed data visualization to get a better understanding of the dataset.
 -  I've labeled(`del.Ham` and `spam`) all the rows to make a prediction.
 -  I used `nltk.corpus` stopwords and Multimodal Naive Bayes Classifier to build the model.
@@ -26,6 +26,11 @@ To build the end-to-end **Spam Analyzer**:
 - Used `Flask` to build backend of the application.
 - Used `HTML+CSS` to build the frontend of the application.
 - Used `Heroku` to host the web application.
+
+## Future Goals(May Be or May be not):
+
+Will think about exploring low-resource models using this post-processed data.
+
 
 ## Getting started with this repo:
 ### 1. Prerequisites:
